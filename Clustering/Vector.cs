@@ -14,7 +14,7 @@ namespace Clustering {
         public Vector(params float[] attributes) {
             this.attributes = attributes;
             this.dimension = attributes.Length;
-            this.clusterID = -1;
+            this.clusterID = 0;
         }
 
         public static Vector operator +(Vector v1, Vector v2) {
@@ -58,6 +58,25 @@ namespace Clustering {
                 attributes[i] = v.attributes[i] * scalar;
             }
             return new Vector(attributes);
+        }
+
+        public bool Equals(Vector other) {
+            float[] attributes = { };
+            Vector mostDimVector = (dimension >= other.dimension ? this : other);
+            try {
+                for (int i = 0; i < mostDimVector.attributes.Length; i++) {
+                    if (this.attributes[i] != other.attributes[i]) {
+                        return false;
+                    }
+                }
+
+                return true;
+            }
+            catch (IndexOutOfRangeException ex) {
+                Console.WriteLine("Vectors must be of equal dimensions!");
+            }
+
+            return false;
         }
 
         public float Length() {
