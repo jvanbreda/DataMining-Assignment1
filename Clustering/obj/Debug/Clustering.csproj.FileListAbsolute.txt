@@ -1,0 +1,9 @@
+c:\users\jesse\documents\visual studio 2015\Projects\Clustering\Clustering\bin\Debug\Clustering.exe.config
+c:\users\jesse\documents\visual studio 2015\Projects\Clustering\Clustering\bin\Debug\Clustering.exe
+c:\users\jesse\documents\visual studio 2015\Projects\Clustering\Clustering\bin\Debug\Clustering.pdb
+c:\users\jesse\documents\visual studio 2015\Projects\Clustering\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache
+c:\users\jesse\documents\visual studio 2015\Projects\Clustering\Clustering\obj\Debug\Clustering.exe
+c:\users\jesse\documents\visual studio 2015\Projects\Clustering\Clustering\obj\Debug\Clustering.pdb
+E:\School\Jaar 3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\bin\Debug\Clustering.exe.config
+E:\School\Jaar 3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\obj\Debug\Clustering.exe
+E:\School\Jaar 3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\obj\Debug\Clustering.pdb
