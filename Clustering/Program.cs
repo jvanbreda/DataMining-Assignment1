@@ -11,8 +11,10 @@ namespace Clustering {
         static void Main(string[] args) {
             int k = 3;
 
-            ClusterModule.Cluster(k, 200, dataSet.ToArray());
-            getClusterMembers();
+            //ClusterModule.Cluster(k, 200, dataSet.ToArray());
+            //getClusterMembers();
+
+            CsvParser.getVectorList();
             
             Console.ReadLine();
         }

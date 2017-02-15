@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Clustering {
-    class Vector {
+    public class Vector {
 
         private float[] attributes;
         public int dimension;
