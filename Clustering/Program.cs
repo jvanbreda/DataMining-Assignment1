@@ -14,25 +14,22 @@ namespace Clustering {
             dataSet = CsvParser.getVectorList();
 
             int counter = 0;
-            int repetitions = 1000;
+            int repetitions = 200;
 
             while (counter < repetitions) {
-                Tuple<Vector[], Vector[]> clusteringResult = ClusterModule.Cluster(k, 100, dataSet);
+                Tuple<Vector[], Vector[]> clusteringResult = ClusterModule.Cluster(k, 10, dataSet);
                 clusteringResults.Add(clusteringResult);
                 counter++;
+                Console.Write("\r{0} - {1}", counter, repetitions);
             }
 
+            Console.WriteLine();
             getClusterMembers(k, Calculator.getBestSSE(clusteringResults));
             //getClusterMembers(k, Calculator.getBestSilhouette(clusteringResults));
-            //getClusterList();
+
+
 
             Console.ReadLine();
-        }
-
-        private static void getClusterList() {
-            foreach(Vector v in dataSet) {
-                Console.WriteLine(string.Format("{0}: cluster {1}", v, v.clusterID));
-            }
         }
 
         private static void getClusterMembers(int k, Tuple<Vector[], Vector[]> clusterResult) {

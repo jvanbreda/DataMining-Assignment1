@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BetterClusterModule.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="Cluster.cs" />
     <Compile Include="ClusterModule.cs" />
     <Compile Include="CsvParser.cs" />
     <Compile Include="HelperTools.cs" />

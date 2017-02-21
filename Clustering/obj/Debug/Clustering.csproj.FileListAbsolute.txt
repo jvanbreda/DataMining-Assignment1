@@ -10,3 +10,9 @@ E:\School\Jaar 3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Cluste
 E:\School\Jaar 3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache
 E:\School\Jaar 3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\bin\Debug\Clustering.exe
 E:\School\Jaar 3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\bin\Debug\Clustering.pdb
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\bin\Debug\Clustering.exe.config
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\obj\Debug\Clustering.exe
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\obj\Debug\Clustering.pdb
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\bin\Debug\Clustering.exe
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\bin\Debug\Clustering.pdb
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Clustering {
     public class Vector {
 
-        private float[] attributes;
+        public float[] attributes { get; private set; }
         public int dimension;
         public int clusterID;
 
@@ -110,6 +110,14 @@ namespace Clustering {
             }
 
             return (1f / vectors.Length) * sumVector;
+        }
+
+        public static Vector[] CopyArray(Vector[] array) {
+            Vector[] copy = new Vector[array.Length];
+            for (int i = 0; i < array.Length; i++) {
+                copy[i] = new Vector(array[i].attributes);
+            }
+            return copy;
         }
 
         public override string ToString() {
