@@ -14,13 +14,13 @@ namespace Clustering {
             dataSet = CsvParser.getVectorList();
 
             int counter = 0;
-            int repetitions = 200;
+            int repetitions = 500;
 
             while (counter < repetitions) {
                 Tuple<Vector[], Vector[]> clusteringResult = ClusterModule.Cluster(k, 10, dataSet);
                 clusteringResults.Add(clusteringResult);
                 counter++;
-                Console.Write("\r{0} - {1}", counter, repetitions);
+                Console.Write("\r{0}%", Math.Floor(((float)counter/repetitions) * 100));
             }
 
             Console.WriteLine();
