@@ -28,7 +28,7 @@ namespace GeneticAlgorithm {
             int counter = 0;
             Individual[] tournamentWinners = new Individual[2];
 
-            int maxTournamentContestants = (MAX_SEARCH_VALUE + 1) / 4;
+            int maxTournamentContestants = population.Length / 4;
 
             while(counter < 2) {
                 List<int> randomIndeces = new List<int>();
