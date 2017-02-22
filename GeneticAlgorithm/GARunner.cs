@@ -71,15 +71,16 @@ namespace GeneticAlgorithm {
                     }
                 }
 
+                Console.WriteLine(Calculator.GetBestFitness(fitness));
+
                 currentPopulation = newPopulation;
-                Console.Write("\r{0}%", Math.Floor(((double)generation / iterations) * 100));
+                //Console.Write("\r{0}%", Math.Floor(((double)generation / iterations) * 100));
             }
 
             double[] lastPopulationFitness = new double[populationSize];
             for (int i = 0; i < populationSize; i++) {
                 lastPopulationFitness[i] = GeneticModule.ComputeFitness(currentPopulation[i]);
-            }
-            
+            }            
             return new Tuple<Individual[], double[]>(currentPopulation, lastPopulationFitness);
         }
     }

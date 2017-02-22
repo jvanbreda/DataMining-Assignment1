@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace GeneticAlgorithm {
     class GeneticModule {
 
+        // Must be 2^n -1 (because the encoding works with binary strings)
         private static readonly int MAX_SEARCH_VALUE = 31;
         private static readonly Random r = new Random();
 

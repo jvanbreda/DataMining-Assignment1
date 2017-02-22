@@ -10,7 +10,7 @@ namespace GeneticAlgorithm {
         
         static void Main(string[] args) {
 
-            GArunner ga = new GArunner(0.9, 0.05, true, 25, 100);
+            GArunner ga = new GArunner(0.9, 0.05, true, 25, 10);
             Tuple<Individual[], double[]> result = ga.Run();
 
             Console.WriteLine();
