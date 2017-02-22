@@ -4,3 +4,9 @@ E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\Genetic
 E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\GeneticAlgorithm\obj\Debug\GeneticAlgorithm.csprojResolveAssemblyReference.cache
 E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\GeneticAlgorithm\obj\Debug\GeneticAlgorithm.exe
 E:\School\Jaar3\OP3\Data Science 2 - Data mining\Opdracht 1 - Clustering\GeneticAlgorithm\obj\Debug\GeneticAlgorithm.pdb
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.exe.config
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\GeneticAlgorithm\obj\Debug\GeneticAlgorithm.exe
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\GeneticAlgorithm\obj\Debug\GeneticAlgorithm.pdb
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.exe
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.pdb
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\GeneticAlgorithm\obj\Debug\GeneticAlgorithm.csprojResolveAssemblyReference.cache
