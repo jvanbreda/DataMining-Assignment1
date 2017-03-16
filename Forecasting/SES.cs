@@ -12,7 +12,7 @@ namespace Forecasting {
             float minimalError = float.PositiveInfinity;
             float optimalAlpha = 1;            
 
-            float alpha = 0.1f;
+            float alpha = 0.01f;
             while (alpha < 1) {
                 Dictionary<int, float> sesValues = new Dictionary<int, float>();
                 sesValues.Add(1, dataSet[1]);
@@ -29,7 +29,7 @@ namespace Forecasting {
                     optimalAlpha = alpha;
                 }
 
-                alpha += 0.1f;
+                alpha += 0.01f;
             }
 
             return new Tuple<Dictionary<int, float>, float, float>(optimalSesValues, minimalError, optimalAlpha);
