@@ -71,8 +71,6 @@ namespace GeneticAlgorithm {
                     }
                 }
 
-                Console.WriteLine(Calculator.GetBestFitness(fitness));
-
                 currentPopulation = newPopulation;
                 //Console.Write("\r{0}%", Math.Floor(((double)generation / iterations) * 100));
             }

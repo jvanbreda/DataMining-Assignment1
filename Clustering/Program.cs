@@ -14,7 +14,7 @@ namespace Clustering {
             dataSet = CsvParser.getVectorList();
 
             int counter = 0;
-            int repetitions = 500;
+            int repetitions = 1000;
 
             while (counter < repetitions) {
                 Tuple<Vector[], Vector[]> clusteringResult = ClusterModule.Cluster(k, 10, dataSet);
