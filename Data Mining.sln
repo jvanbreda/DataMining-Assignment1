@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clustering", "Clustering\Clustering.csproj", "{0CCF89C4-7B48-46DF-AF89-7ADB99F62991}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Clustering", "Clustering\1. Clustering.csproj", "{0CCF89C4-7B48-46DF-AF89-7ADB99F62991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticAlgorithm", "GeneticAlgorithm\GeneticAlgorithm.csproj", "{93BA2052-3D85-42A7-856A-0EB9D1293C34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. GeneticAlgorithm", "GeneticAlgorithm\2. GeneticAlgorithm.csproj", "{93BA2052-3D85-42A7-856A-0EB9D1293C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Forecasting", "Forecasting\3. Forecasting.csproj", "{0F2AFECD-2C5C-4EC9-8992-F0852D5074F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{93BA2052-3D85-42A7-856A-0EB9D1293C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93BA2052-3D85-42A7-856A-0EB9D1293C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93BA2052-3D85-42A7-856A-0EB9D1293C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2AFECD-2C5C-4EC9-8992-F0852D5074F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2AFECD-2C5C-4EC9-8992-F0852D5074F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2AFECD-2C5C-4EC9-8992-F0852D5074F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2AFECD-2C5C-4EC9-8992-F0852D5074F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

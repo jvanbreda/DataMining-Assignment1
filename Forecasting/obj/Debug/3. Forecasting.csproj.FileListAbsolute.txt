@@ -1,0 +1,9 @@
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Forecasting\obj\Debug\3. Forecasting.csprojResolveAssemblyReference.cache
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Forecasting\obj\Debug\Forecasting.Form1.resources
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Forecasting\obj\Debug\Forecasting.Properties.Resources.resources
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Forecasting\obj\Debug\3. Forecasting.csproj.GenerateResource.Cache
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Forecasting\bin\Debug\Forecasting.exe.config
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Forecasting\bin\Debug\Forecasting.exe
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Forecasting\bin\Debug\Forecasting.pdb
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Forecasting\obj\Debug\Forecasting.exe
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Forecasting\obj\Debug\Forecasting.pdb
