@@ -13,7 +13,8 @@ namespace Forecasting {
         private string[] dataSeries = { "Demand", "SES", "DES" };
 
         private Dictionary<int, float> demandData;
-        private Tuple<Dictionary<int, float>, float, float> sesData, desData;
+        private Tuple<Dictionary<int, float>, float, float> sesData;
+        private Tuple<Dictionary<int, float>, float, float, float> desData;
 
 
         public Form1() {
@@ -30,6 +31,7 @@ namespace Forecasting {
 
             swordDemand.Titles.Add("Demand of swords and SES and DES forecasting");
             swordDemand.ChartAreas[0].AxisX.Interval = 1;
+            swordDemand.ChartAreas[0].AxisX.Minimum = 1;
             swordDemand.ChartAreas[0].AxisX.Maximum = Program.MAX_FORECAST_WEEK;
             swordDemand.ChartAreas[0].AxisX.Title = "Week";
             swordDemand.ChartAreas[0].AxisY.Interval = 100;
@@ -55,11 +57,18 @@ namespace Forecasting {
             for (int i = 1; i <= Program.MAX_FORECAST_WEEK; i++) {
                 swordDemand.Series["SES"].Points.AddXY(i, sesData.Item1[i]);
             }
+            for (int i = 2; i <= Program.MAX_FORECAST_WEEK; i++) {
+                swordDemand.Series["DES"].Points.AddXY(i, desData.Item1[i]);
+            }
         }
 
         private void DrawForecastInfo() {
             sesAlpha.Text = sesData.Item3.ToString();
             sesError.Text = sesData.Item2.ToString();
+
+            desAlpha.Text = desData.Item3.ToString();
+            desBeta.Text = desData.Item4.ToString();
+            desError.Text = desData.Item2.ToString();
         }
     }
 }

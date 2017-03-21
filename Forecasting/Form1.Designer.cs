@@ -23,9 +23,9 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.swordDemand = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,17 +44,17 @@
             // 
             // swordDemand
             // 
-            chartArea2.Name = "ChartArea1";
-            this.swordDemand.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.swordDemand.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.swordDemand.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.swordDemand.Legends.Add(legend1);
             this.swordDemand.Location = new System.Drawing.Point(12, 12);
             this.swordDemand.Name = "swordDemand";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.swordDemand.Series.Add(series2);
-            this.swordDemand.Size = new System.Drawing.Size(876, 444);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.swordDemand.Series.Add(series1);
+            this.swordDemand.Size = new System.Drawing.Size(1233, 444);
             this.swordDemand.TabIndex = 0;
             this.swordDemand.Text = "chart1";
             // 
@@ -172,7 +172,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(883, 608);
+            this.ClientSize = new System.Drawing.Size(1257, 608);
             this.Controls.Add(this.desError);
             this.Controls.Add(this.desBeta);
             this.Controls.Add(this.desAlpha);
