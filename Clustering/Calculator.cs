@@ -18,7 +18,7 @@ namespace Clustering {
                 tempSum = 0;
                 foreach (Vector v in vectors) {
                     if (i == v.clusterID) {
-                        tempSum += v.Distance(centroids[i]);
+                        tempSum += (float) Math.Pow(v.Distance(centroids[i]), 2);
                     }
                 }
                 result += tempSum;

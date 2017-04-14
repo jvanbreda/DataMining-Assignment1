@@ -1,0 +1,6 @@
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Clustering\bin\Debug\Clustering.exe.config
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Clustering\bin\Debug\Clustering.exe
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Clustering\bin\Debug\Clustering.pdb
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Clustering\obj\Debug\1. Clustering.csprojResolveAssemblyReference.cache
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Clustering\obj\Debug\Clustering.exe
+E:\School\Jaar3\OP3\Data Science 2 - Data mining\DataMining\Clustering\obj\Debug\Clustering.pdb

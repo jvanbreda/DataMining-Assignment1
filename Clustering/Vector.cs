@@ -120,6 +120,15 @@ namespace Clustering {
             return copy;
         }
 
+        public List<Record> ToList() {
+            List<Record> list = new List<Record>();
+            for (int i = 0; i < attributes.Length; i++) {
+                list.Add(new Record(i + 1 ,attributes[i]));
+            }
+
+            return list;
+        }
+
         public override string ToString() {
             string attributeString = "";
             foreach (float f in attributes) {

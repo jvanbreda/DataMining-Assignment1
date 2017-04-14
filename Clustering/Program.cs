@@ -24,15 +24,16 @@ namespace Clustering {
             }
 
             Console.WriteLine();
-            getClusterMembers(k, Calculator.getBestSSE(clusteringResults));
+            //GetClusterMembers(k, Calculator.getBestSSE(clusteringResults));
             //getClusterMembers(k, Calculator.getBestSilhouette(clusteringResults));
+            PrintClusters(k, Calculator.getBestSSE(clusteringResults));
 
 
 
             Console.ReadLine();
         }
 
-        private static void getClusterMembers(int k, Tuple<Vector[], Vector[]> clusterResult) {
+        private static void GetClusterMembers(int k, Tuple<Vector[], Vector[]> clusterResult) {
             int currentClusterNumber;
             for (int i = 0; i < k; i++) {
                 currentClusterNumber = 0;
@@ -50,6 +51,26 @@ namespace Clustering {
             Console.WriteLine(string.Format("Silhouette: {0}", Calculator.Silhouette(clusterResult)));
             Console.WriteLine("---------------------");
             Console.WriteLine();
+
+        }
+
+        private static void PrintClusters(int k, Tuple<Vector[], Vector[]> clusterResult) {
+            Console.WriteLine(string.Format("SSE: {0}", Calculator.SSE(clusterResult)));
+            for (int i = 0; i < k; i++) {
+                Vector boughtWinesInCluster = new Vector(new float[32]);
+                foreach (Vector v in clusterResult.Item1) {
+                    if (i == v.clusterID) {
+                        boughtWinesInCluster += v;
+                    }
+                }
+
+                List<Record> orderedBoughtWinesInCluster = boughtWinesInCluster.ToList().OrderByDescending(r => r.timesBought).ToList();
+                Console.WriteLine("Cluster {0}", i);
+                for (int j = 0; j < orderedBoughtWinesInCluster.Count; j++) {
+                    Console.WriteLine("Offer {0} -> \t bought {1} times", orderedBoughtWinesInCluster[j].offerNumber, orderedBoughtWinesInCluster[j].timesBought);
+                }
+                Console.WriteLine();
+            }
 
         }
     }
