@@ -81,8 +81,8 @@ namespace GeneticAlgorithm {
         }
 
         public static Individual Mutation(Individual ind, double mutationRate) {
-            double randomDouble = r.NextDouble();
-            if (randomDouble < mutationRate) {
+            double random = r.NextDouble();
+            if (random < mutationRate) {
                 ind.ModifyGene(r.Next(ind.Length()));
             }
 

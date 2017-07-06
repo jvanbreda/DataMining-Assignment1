@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CSVparser.cs" />
     <Compile Include="DES.cs" />
+    <Compile Include="DES2.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

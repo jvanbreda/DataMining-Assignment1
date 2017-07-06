@@ -47,7 +47,7 @@ namespace Forecasting {
         private void LoadData() {
             demandData = CSVparser.GetData();
             sesData = SES.ComputeSES(demandData);
-            desData = DES.ComputeDES(demandData);
+            desData = DES2.ComputeDES(demandData);
         }
 
         private void DrawGraph() {
@@ -57,7 +57,7 @@ namespace Forecasting {
             for (int i = 1; i <= Program.MAX_FORECAST_WEEK; i++) {
                 swordDemand.Series["SES"].Points.AddXY(i, sesData.Item1[i]);
             }
-            for (int i = 2; i <= Program.MAX_FORECAST_WEEK; i++) {
+            for (int i = 3; i <= Program.MAX_FORECAST_WEEK; i++) {
                 swordDemand.Series["DES"].Points.AddXY(i, desData.Item1[i]);
             }
         }

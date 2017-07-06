@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace Clustering2 {
     public class Program {
         static Vector[] dataSet;
-        public static int k = 4;
+        public static int k = 5;
         static void Main(string[] args) {
             dataSet = CsvParser.GetVectorList();
             List<Cluster[]> clusteringResults = new List<Cluster[]>();
-            int algorithmRuns = 100;
+            int algorithmRuns = 500;
 
             int counter = 0;
 
